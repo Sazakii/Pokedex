@@ -34,7 +34,7 @@ const renderPokemon = async (pokemon) => {
         searchPokemon = data.id;
     } else{
         pokemonImage.style.display = 'none'
-        pokemonName.innerHTML = 'Digita certo puta';
+        pokemonName.innerHTML = 'Nada foi Encontrado...';
         pokemonNumber.innerHTML = '';
     }
 
